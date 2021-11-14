@@ -1,0 +1,38 @@
+@media (max-width: 900px){
+    .header-wrp{
+        background-color: white;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar.toggle{
+        display: block;
+    }
+    .toggle-bar{
+        display: flex;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top: 110px;
+        right: 10px;
+        
+    }
+    .nav-bar ul li{
+        margin-top: 40px;
+    }
+    section {
+        margin-top: 200px;
+    }
+
+    .input-wrp {
+        margin-left: -400px;
+    }
+  
+   
+  
+}
+  
